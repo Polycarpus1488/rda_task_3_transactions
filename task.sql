@@ -1,7 +1,7 @@
 USE ShopDB;
-START TRANSACTION;
 INSERT INTO Orders (CustomerID, Date)
-VALUES (1, '2024-06-01');
+VALUES (1, '2023-01-01');
+START TRANSACTION;
 INSERT INTO OrderItems (OrderID, ProductID, Count) 
 VALUES (LAST_INSERT_ID(), 1, 1);
 UPDATE Products
