@@ -11,6 +11,3 @@ SET WarehouseAmount = WarehouseAmount - 1
 WHERE Name = 'AwersomeProduct';
 
 COMMIT;
- 
-INSERT INTO Orders (CustomerID, Date)
-VALUES (1, '2024-06-01');
