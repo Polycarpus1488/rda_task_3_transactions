@@ -8,6 +8,6 @@ VALUES (LAST_INSERT_ID(), 1, 1);
 
 UPDATE Products
 SET WarehouseAmount = WarehouseAmount - 1
-WHERE Name = 'AwersomeProduct';
+WHERE ID = 1;
 
 COMMIT;
